@@ -1,3 +1,5 @@
+// Objects, functions, this
+
 // global environment
 console.log(this);
 
