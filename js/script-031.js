@@ -1,3 +1,5 @@
+// Object and object literals
+
 var Mobi = {
     firstname: 'Mobi',
     lastname: 'Samadi',
