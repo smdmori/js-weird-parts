@@ -1,3 +1,5 @@
+// function statement and function expression
+
 greet()
 
 // function statement
