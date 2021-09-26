@@ -1,3 +1,5 @@
+// JSON and object literals
+
 var objLiteral = {
     firstname: 'Mori',
     isAProgrammer: true
