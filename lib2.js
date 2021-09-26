@@ -1,0 +1,1 @@
+this.myVar = this.myVar || 'lib 2'
