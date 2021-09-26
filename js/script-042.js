@@ -1,3 +1,5 @@
+// DANGEROUS ASIDE: semicolon insertion
+
 function getPerson () {
 
     // return
