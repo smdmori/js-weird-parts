@@ -7,7 +7,8 @@ var arr = [
     },
     function greet(name) {
         console.log('Hello ' + name);
-    }
+    },
+    'Hallo'
 ]
 
 console.log(arr);
