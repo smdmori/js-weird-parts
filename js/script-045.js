@@ -1,3 +1,5 @@
+var greeting = 'Hello'
+
 // IIFE and Safe code
 (function(global, name) {
     var greeting = 'Salam';
