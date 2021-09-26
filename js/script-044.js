@@ -1,3 +1,5 @@
+// IIFE EXPLAINED
+
 var myName = 'Mori'
 // function statement
 function greet(name) {
