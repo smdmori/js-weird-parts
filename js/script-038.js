@@ -1,3 +1,5 @@
+// CONCEPTUAL ASIDE : arrays, collection of anything
+
 var arr = [
     1,
     false,
