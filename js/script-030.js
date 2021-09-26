@@ -1,3 +1,5 @@
+// Objects and the dots
+
 var person = new Object()
 
 // First way to set properties
