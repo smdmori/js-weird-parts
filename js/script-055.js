@@ -1,6 +1,18 @@
 // Everything is an object or a primitive
+
+/**
+ * a : object
+ */
 var a = {};
+
+/**
+ * b : Empty function
+ */
 var b = function () { }
+
+/**
+ * c : array
+ */
 var c = [];
 
 
