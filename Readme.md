@@ -12,8 +12,12 @@ The 'this' variable points a new empty object, and that object is returned from 
 &nbsp;  
 
 ## **Polyfill** : 
-Code that adds a feature which the engine *may* lack
+Code that adds a feature which the engine *may* lack (063.js)
 
+&nbsp;  
+
+## **Syntactic Sugar** :
+A different way to *type* something that doesn't change how it works under the hood. (064.js)
 
 &nbsp;  
 
