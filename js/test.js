@@ -1,18 +1,52 @@
-Array.prototype.addingnewchert = 'cool!'
+// checking typeof and instnceof
+var a = {};
+console.log(typeof a);
 
-// TODO: see difference between 'for ... in' and 'for ... of '
-var arr = [4, 1, 0, 8, 9];
+var b = [];
+console.log(typeof b);
 
-for (i in arr) {
-    console.log(i, arr[i]);
+var c = 3;
+console.log(typeof c);
+
+var d = 'string';
+console.log(typeof d);
+
+
+console.log(Object.prototype.toString.call(a));
+console.log(Object.prototype.toString.call(b));
+console.log(Object.prototype.toString.call(c));
+console.log(Object.prototype.toString.call(d));
+
+console.log('**********');
+
+function Person(name) {
+    this.name = name;
 }
 
-console.log('***********');
+console.log(typeof Person);
 
-for (o of arr) {
-    console.log(o, arr[o]);
-}
+var e = new Person();
+console.log(typeof e);
+console.log(e instanceof Person);
 
+// *********************************************
+
+// Array.prototype.addingnewchert = 'cool!'
+
+// // TODO: see difference between 'for ... in' and 'for ... of '
+// var arr = [4, 1, 0, 8, 9];
+
+// for (i in arr) {
+//     console.log(i, arr[i]);
+// }
+
+// console.log('***********');
+
+// for (o of arr) {
+//     console.log(o, arr[o]);
+// }
+
+// *********************************************
 
 // var i = Infinity
 
