@@ -6,11 +6,11 @@ if (!Object.create) {
         if (arguments.length > 1) {
             throw new Error('Object.create implemention only accepts the first parameter.');
         }
-    }
 
-    function F() { }
-    F.prototype = o;
-    return new F();
+        function F() { }
+        F.prototype = o;
+        return new F();
+    }
 }
 
 var person = {
