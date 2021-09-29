@@ -21,6 +21,12 @@ A different way to *type* something that doesn't change how it works under the h
 
 &nbsp;  
 
+## **Method Chaining** :  
+Calling one method after another and each method affects the parent object.
+So obj.method1().method2() where both methods end up with a 'this' variable pointing at 'obj'.  
+
+&nbsp;  
+
 # New learnings  
 
 ### USE THIS APPROACH:  
