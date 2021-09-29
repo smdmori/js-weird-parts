@@ -1,9 +1,16 @@
 // Function Constructors new and the History of Javascript
-function Person() {
+function Person(firstname, lastname) {
+    console.log('************');
 
-    this.firstname = 'Mori';
-    this.lastname = 'Sami';
+    console.log(this);
+    this.firstname = firstname;
+    this.lastname = lastname;
+    console.log(this.firstname + ' ' + this.lastname);
+
 }
 
-var mori = new Person();
+var mori = new Person('Mori', 'Sami');
 console.log(mori);
+
+var linus = new Person('Linus', 'Torvalds');
+console.log(linus);
