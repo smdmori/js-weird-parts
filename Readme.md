@@ -31,3 +31,6 @@ in this way, you save some memory space by not adding methods to every object th
 every function you create in JS has this property. it starts as a empty object and ots always there, but you can add on to it. (058.js)
 
 ****
+
+**Dangerous Aside** :  
+use Capital letter for any function that you are gonna use as function constructor.  
