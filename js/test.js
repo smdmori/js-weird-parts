@@ -1,7 +1,23 @@
-var i = Infinity
+Array.prototype.addingnewchert = 'cool!'
 
-console.log(i);
-console.log(typeof i);
+// TODO: see difference between 'for ... in' and 'for ... of '
+var arr = [4, 1, 0, 8, 9];
+
+for (i in arr) {
+    console.log(i, arr[i]);
+}
+
+console.log('***********');
+
+for (o of arr) {
+    console.log(o, arr[o]);
+}
+
+
+// var i = Infinity
+
+// console.log(i);
+// console.log(typeof i);
 
 
 // *********************************************
