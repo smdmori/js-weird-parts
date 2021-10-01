@@ -27,6 +27,12 @@ So obj.method1().method2() where both methods end up with a 'this' variable poin
 
 &nbsp;  
 
+## **Transpile**
+Converting the syntax of one programming language to another.
+In this case languages that don't really ever run anywhere, but instead are processed by 'traspilers' that generate JavaScript.
+
+&nbsp;  
+
 # New learnings  
 
 ### USE THIS APPROACH  
